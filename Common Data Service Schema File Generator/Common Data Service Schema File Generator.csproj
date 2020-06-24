@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>CdsSchemaFileGenerator</RootNamespace>
+    <Version>0.1.0</Version>
+    <Authors>David Jenkins</Authors>
+    <Company />
+    <PackageId>cds-schema-file-generator</PackageId>
+    <Copyright>Copyright © 2020 David Jenkins</Copyright>
+    <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CrmSdk.CoreAssemblies" Version="9.0.2.26" />
+  </ItemGroup>
+
+</Project>
